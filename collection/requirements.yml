@@ -1,6 +1,6 @@
 ---
 collections:
-   Install a collection from Ansible Galaxy.
+  # Install a collection from Ansible Galaxy.
   - name : git+https://github.com/Pankhuri1804/ansiblehello1coll.git
     version: main
     type: git
