@@ -5,8 +5,7 @@ collections:
   #  version: main
   #  type: git
   #- name : "https://github.com/Pankhuri1804/ansiblehello1coll/blob/f3ada5d06bbbdbc0ea8eaccd85392be18bd2312a/pankhuri1-hello1-1.0.0.tar"
-  - name : pankhuri1.hello1
-    source : https://github.com/Pankhuri1804/ansiblehello1coll.git
+  - source : https://github.com/Pankhuri1804/ansiblehello1coll.git
     version : main
   #- name : git@github.com:Pankhuri1804/ansiblehello1coll.git
   #  version: main
