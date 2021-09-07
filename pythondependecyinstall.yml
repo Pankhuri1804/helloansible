@@ -1,8 +1,4 @@
----
-- hosts: localhost
-  tasks:
-
-     - name: Install specified python requirements and custom Index URL
+- name: Install specified python requirements and custom Index URL
        pip:
          requirements: https://github.com/Pankhuri1804/coll2/blob/ae78c3534a831a3d923b11e47679f80ab17b7da6/requirements.txt?raw=true
          executable: pip3
