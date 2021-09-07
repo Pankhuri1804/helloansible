@@ -4,5 +4,5 @@
 
      - name: Install specified python requirements and custom Index URL
        pip:
-         requirements: https://raw.githubusercontent.com/Pankhuri1804/helloansible/f0dbf3accc5e0b70a110aa925a9b329ebcca6024/requirements.txt?raw=true
+         requirements: https://github.com/Pankhuri1804/coll2/blob/ae78c3534a831a3d923b11e47679f80ab17b7da6/requirements.txt?raw=true
          executable: pip3
